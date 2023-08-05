@@ -23,6 +23,23 @@
 
     .header {
         font-size: 22px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+    }
+    
+    .button-translate {
+        text-decoration: none;
+        font-size: 16px;
+        border: 1px solid black;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        border-radius: 6px;
+        width: 170px;
+        color: black;
     }
 
     .page {
@@ -140,7 +157,12 @@
 <body>
     <div class="page">
         <div class="container">
-            <div class="header">寻根溯源</div>
+            <div class="header">
+                <span>寻根溯源</span>
+                <a href="index.html" class="button-translate">
+                    <span>Translate to VietNamese</span>
+                </a>
+            </div>
             <div class="img-and-name">
                 <img class="img" src="./image/main.jpeg" alt="">
                 <div class="gr-name">
